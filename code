@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Hut Deals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+    }
+    .btn {
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .deal-section, .popular-deals, .location, .cta {
+      margin: 30px 0;
+    }
+    .deal-section img, .popular-deals img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .location input {
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid white;
+      margin: 10px;
+      width: 200px;
+    }
+    .cta button {
+      margin: 10px;
+    }
+    .highlight {
+      color: yellow;
+    }
+    .free-flag {
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      display: inline-block;
+      border-radius: 5px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    .deal-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .deal-card {
+      background: white;
+      color: black;
+      padding: 10px;
+      border-radius: 10px;
+      width: 200px;
+    }
+    .deal-card img {
+      border-radius: 10px;
+    }
+    .button-red {
+      background: red;
+      color: white;
+    }
+    .button-pink {
+      background: pink;
+      color: black;
+    }
+    .button-blue {
+      background: teal;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://1000logos.net/wp-content/uploads/2021/05/Pizza-Hut-logo.png" alt="Pizza Hut Logo" class="logo">
+  <div>
+    <button class="btn">Log in</button>
+    <button class="btn">Sign up</button>
+  </div>
+  <div class="deal-section">
+    <h2><span class="highlight">BUY 1</span> GET <span class="highlight">3</span> FREE</h2>
+    <p>Buy any medium pizza, get 2 sides + Pepsi <span class="highlight">FREE</span></p>
+    <h3 style="color: orange;">★ So juicy, so saucy ★</h3>
+  </div>
+
+  <div class="deal-section">
+    <h2>TRY NEW <span style="color: cyan;">JUICYLICIOUS</span> <span class="highlight">PIZZA</span></h2>
+    <div style="position: relative; display: inline-block;">
+      <img src="https://www.pngall.com/wp-content/uploads/4/Pepperoni-Pizza-PNG-Image.png" alt="Pizza Image">
+      <span class="free-flag">FREE</span>
+    </div>
+    <br><br>
+    <img src="https://static.vecteezy.com/system/resources/previews/009/887/699/original/pepsi-transparent-free-png.png" alt="Pepsi" width="100">
+  </div>
+
+  <h2>Our popular deals</h2>
+  <div class="deal-cards">
+    <div class="deal-card">
+      <img src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900" alt="Pizza1" width="100%">
+      <p>Flat ₹125 OFF<br>Min Order ₹500<br>Code: <strong>HUT125</strong></p>
+    </div>
+    <div class="deal-card">
+      <img src="https://static.toiimg.com/photo/53110049.cms" alt="Pizza2" width="100%">
+      <p>Flat ₹100 OFF<br>Min Order ₹400<br>Code: <strong>HUT100</strong></p>
+    </div>
+  </div>
+
+  <div class="location">
+    <button class="btn button-red">DELIVERY</button>
+    <input type="text" placeholder="Enter current location">
+    <br>
+    <button class="btn button-pink">COLLECT FROM STORE</button>
+    <input type="text" placeholder="Enter current location">
+  </div>
+
+  <div class="cta">
+    <button class="btn button-red">BUY NOW</button>
+    <button class="btn button-blue">VIEW ALL DEALS</button>
+  </div>
+</body>
+</html>
