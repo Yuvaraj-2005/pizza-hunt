@@ -60,6 +60,6 @@ Typography Style:
 - Highlights high-value deals
 - Likely to improve CTR and conversions
 - Encourages impulse purchases with vibrant imagery
-- 
 
+  BEFORE ![Image](https://github.com/user-attachments/assets/638cb47f-4f05-446c-ac73-0da3a1892b6e)
 
