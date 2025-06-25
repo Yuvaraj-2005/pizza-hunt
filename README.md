@@ -61,7 +61,5 @@ Typography Style:
 - Likely to improve CTR and conversions
 - Encourages impulse purchases with vibrant imagery
 
-  BEFORE ![Image](https://github.com/user-attachments/assets/638cb47f-4f05-446c-ac73-0da3a1892b6e)
-
-  AFTER  ![Image](https://github.com/user-attachments/assets/3544773e-5bf8-4985-8536-c0f042df2e27)
+  ![Image](https://github.com/user-attachments/assets/3544773e-5bf8-4985-8536-c0f042df2e27)
 
